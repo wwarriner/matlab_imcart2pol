@@ -16,7 +16,7 @@ hi_range = hi - RANGE_STEP : hi + RANGE_STEP;
 
 fh = figure();
 fh.Position(4) = 700;
-colormap(fh, gray);
+colormap(fh, gray(256));
 
 %% CREATE CARTESIAN IMAGE
 im_c = false(SZ, SZ);
