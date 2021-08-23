@@ -18,3 +18,9 @@ Overall the workflow works well, even on logical images, but has artifacts with 
 Please see `test.m` for an example of how to use the functions. The output should look like the following image.
 
 ![Output of `test.m` showing workflow of modification of Cartesian image by adding a constant theta line in polar coordinates.](test.png)
+
+# Acknowledgements
+The code was inspired by
+1. [ImToPolar](https://www.mathworks.com/matlabcentral/fileexchange/17933-polar-to-from-rectangular-transform-of-images) by Prakash Manandhar
+2. [polartrans.m](https://www.peterkovesi.com/matlabfns/#syntheticimages) by Peter Kovesi
+3. [This answer]((https://stackoverflow.com/a/41788184)) by User swjm at Stackoverflow
